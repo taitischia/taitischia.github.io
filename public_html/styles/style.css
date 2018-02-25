@@ -1,0 +1,286 @@
+/* thank-etc-ok.com */
+
+html, body {
+  font-family: 'Sentinel A', 'Sentinel B';
+  font-size: 140px;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: none;
+  margin-top: 30px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 16px;
+  color: #B2B2B3;
+  height: 50px;
+  width: 100%;
+  background-color: #DADCDC;
+  z-index: 101;
+}
+
+header a {
+  text-decoration: none;
+  color: #B2B2B3;
+  border-bottom: 2px solid #B2B2B3;
+}
+
+header a:hover {
+  border-bottom: 0;
+}
+
+#thomas {
+  top: 15px;
+}
+
+section a {
+  color: #808284;
+  text-decoration: none;
+  border-bottom: 5px solid #808284;
+}
+
+section a:hover {
+  color: #111;
+  border-bottom: 5px solid #111;
+}
+
+a.image {
+  color: #111;
+}
+
+#header-wrapper {
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.right {
+  width: 40%;
+}
+
+.left {
+  width: 40%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.first {
+  position: relative;
+  top: 15px;
+}
+
+.second {
+  position: relative;
+  top: 12px;
+  display: none;
+}
+
+header form {
+  display: inline-block;
+}
+
+header input {
+  font-family: 'Gotham SSm A', 'Gotham SSm B';
+  font-size: 16px;
+  border: 0;
+  margin: 0 10px;
+  padding: 3px 5px;
+}
+
+section {
+  width: 100%;
+  max-width: 1030px;
+  text-rendering: optimizeLegibility;
+  margin: 10% auto 0;
+  padding-bottom: 40%;
+}
+
+.random, .random-2 {
+  display: none;
+}
+
+#last {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.full {
+  width: 1030px;
+  height: 580px;
+}
+
+.full:hover {
+  background-position: 1030px 0 !important;
+}
+
+.full:after {
+  position: relative;
+  top: 445px;
+  left: 1033px;
+  content: ',';
+}
+
+.full-2 {
+  width: 1030px;
+  height: 340px;
+}
+
+.full-2:hover {
+  background-position: 1030px 0 !important;
+}
+
+.full-2:after {
+  position: relative;
+  top: 205px;
+  left: 1033px;
+  content: ',';
+}
+
+.half {
+  width: 460px;
+  height: 340px;
+  float: left;
+  margin-top: 80px;
+}
+
+.second-half {
+  position: relative;
+  left: 110px;
+}
+
+.right {
+  float: right;
+}
+
+.half:hover {
+  background-position: 460px 0 !important;
+}
+
+.half:after {
+  position: relative;
+  top: 205px;
+  left: 463px;
+  content: ',';
+}
+
+.and:after {
+  position: relative;
+  top: 205px;
+  left: 463px;
+  font-size: 70px;
+  content: '&';
+}
+
+.period:after {
+  position: relative;
+  top: 205px;
+  left: 463px;
+  content: '.';
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+#bulmers {
+  background: url('../images/1bulmers.jpg') top left;
+}
+
+#dse {
+  background: url('../images/2DSE.jpg') top left;
+}
+
+#goodgifts {
+  background: url('../images/3goodgifts.jpg') top left;
+}
+
+#strike {
+  background: url('../images/4strike.jpg') top left;
+}
+
+#drf {
+  background: url('../images/5drf.jpg') top left;
+}
+
+#ctk {
+  background: url('../images/6ctk.jpg') top left;
+}
+
+#smithjournal {
+  background: url('../images/7smithjournal.jpg') top left;
+}
+
+#arts-centre {
+  background: url('../images/8arts-centre.jpg') top left;
+}
+
+#tourisms {
+  background: url('../images/9tourisms.jpg') top left;
+}
+
+#iprimus {
+  background: url('../images/10iprimus.jpg') top left;
+}
+
+#map {
+  height: 450px;
+}
+
+#map:after {
+  position: relative;
+  top: -170px;
+  left: 1030px;
+  content: '.';
+}
+
+button {
+  color: #B2B2B3;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  border-bottom: 2px solid #B2B2B3;
+}
+
+button:hover {
+  border-bottom: 0;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobiles .mobile {
+  display: block;
+}
+
+.non-mobile {
+  display: block;
+}
+
+.mobiles .non-mobile {
+  display: none;
+}

@@ -1,0 +1,365 @@
+/*   
+Theme Name: iTait 2.0 (based on another's code)
+Author: Thomas Tkatchenko
+Author URI: http://www.thank-etc-ok.com/
+*/
+
+body {
+	background-color: #FFFFFF;
+	color: #1C1C1B;
+	font-family: 'Helvetica Neue', 'Helvetica', arial, sans-serif;
+	font-size: 1em;
+        line-height: 1.2;
+	color: #000000;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  height: 50px;
+  background-color: #E56A6A;
+}
+
+#container {
+	width: 960px;
+	padding-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#entrypage {
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0;
+	}
+
+#sidebar {
+	width: 306px;
+	float: right;
+	color: #575756;
+	font-size: 1em;
+	text-align: left;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 90px;
+	padding-bottom: 0px;
+	margin-bottom: 150px;
+	}
+
+#sidebar h3 {
+  display: none;
+}
+
+#sidebar div {
+  margin-bottom: 45px;
+}
+
+#sidebarleft {
+	width:150px;
+	float: left;
+}
+
+#sidebarright {
+	width: 150px;
+	float: right;
+}
+
+#footer {
+	width:960px;
+	float: none;
+	clear: both;
+	font-size: 1em;
+	padding-top: 0px;
+}
+
+#entries {
+	width: 600px;
+	float: left;
+	margin-left: 0px;
+	}
+
+.linktext {
+	font-size:9px;
+	margin-left:5%;
+	margin-right:5%;
+}
+.linktextarea {
+	font-size:9px;
+	overflow:hidden;
+}
+
+ul {
+	margin: 2em;
+}
+ul li {
+	margin-bottom: 0.5em;
+}
+.post {
+	margin-bottom: 20px;
+}
+
+hr {
+	height: 5px;
+	color: #000;
+	background-color: #000;
+}
+a {
+	color: #575756;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
+
+a:hover {
+	color: #111;
+}
+
+#heading a {
+	color: #EEE;
+}
+
+h1 a {
+	color: #B2B2B1;
+  text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li. ul li {
+	margin-bottom: 0.692em;
+}
+
+
+
+li.linkcat {
+	list-style-type: none;
+}
+
+
+
+.imgleft {
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.imgright {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+img.frame {
+	padding: 2px;
+	border: solid 1px #DEE4E5;
+}
+
+#heading {
+	color: #E3E3E3;
+}
+
+h1 {
+	font-size: 140px;
+	color: #B2B2B1;
+	text-align: left;
+	font-weight: normal;
+	margin: 10;
+	padding: 0;
+	font-family: Century,'New Century Schoolbook','Century Schoolbook',Georgia,serif;
+}
+
+.title {
+	border-bottom: 1px solid silver;
+}
+
+
+h2 {
+	font-size: 2.5em;
+	margin-top: 1em;
+	color: #000000;
+	text-align: left;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 2.5em;
+	margin-top: 1em;
+	color: #000000;
+	text-align: left;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h4 {
+	color: #000000;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2.5em;
+	line-height: 1.4em;
+}
+
+h5 {
+	color: #000000;
+	font-style: normal;
+	font-size: 2.5em;
+	line-height: 1.4em;
+}
+
+h6 {
+	margin-bottom: 0.2em;
+	margin-top: 2em;
+	color: #000000;
+	font-size: 2.5em;
+	line-height: 1.4em;
+}
+
+
+blockquote {
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 1.25em;
+	line-height: 1.4;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.post-date, #sidebar, .post-comments-meta {
+  font-family: 'HelveticaNeueW01-77BdCn 692722', "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.post-date {
+  position: relative;
+  top: -37px;
+  left: 4px;
+  color: #575756;
+}
+
+#sidebar {
+  line-height: 36px;
+
+}
+
+#entries {
+  position: relative;
+  top: -45px;
+}
+
+.post p {
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.post {
+  margin-bottom: 130px;
+}
+
+
+/* Begin Comments*/
+
+.comments_tiny {
+	color: #b8b8b8;
+	border-bottom: 1px solid silver;
+}
+
+.alt {
+	margin: 0;
+	padding: 0px;
+}
+
+.commentlist {
+	margin-top: 0px;
+
+}
+
+.commentlist li {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-left: 0px;
+}
+
+.commentlist p {
+	margin: 0px 5px 0px 0;
+}
+
+#commentform p {
+	margin: 5px 0;
+}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+}
+
+li.comment {
+	font-weight: bold;
+	padding: 0px;
+	list-style: none;
+}
+
+.commentlist p {
+	font-weight: normal;
+	text-transform: none;
+}
+
+#commentform {
+	margin-top: 30px;
+}
+
+.commentmetadata {
+	font-weight: normal;
+}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #000000;
+}
+
+.content {
+	margin-bottom: 25px;
+	padding-left: 0px;
+	font-weight: normal;
+}
+
+.commentbox {
+	width: 100%;
+	height: 100px;
+}
+
+/* End Comments */

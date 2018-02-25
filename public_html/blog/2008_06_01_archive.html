@@ -1,0 +1,913 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>the wayfarer: June 2008</title>
+ <meta name="keywords" content="the wayfarer" />
+ <meta name="description" content="the wayfarer - " />
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="generator" content="Blogger" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.blogger.com/favicon.ico"/>
+<link rel="alternate" type="application/atom+xml" title="the wayfarer - Atom" href="http://www.taitischia.com/blog/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="the wayfarer - RSS" href="http://www.taitischia.com/blog/rss.xml" />
+<link rel="service.post" type="application/atom+xml" title="the wayfarer - Atom" href="http://www.blogger.com/feeds/3032588402790261912/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=3032588402790261912" />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/css/blog_controls.css"/> <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=3032588402790261912&zx=6286365e-b395-41fa-9637-bf201e2ec39f"/>
+<style type="text/css">
+
+      /********** REMOVE THIS WHOLE BLOCK TO SHOW THE BLOGGER NAVBAR ************
+      **                                                                       **
+      **/     #navbar-iframe {height:0px;visibility:hidden;display:none}      /**
+      **                                                                       **
+      ***************************************************************************
+
+
+
+
+body {margin-top: 32px !important} 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    }
+
+img {
+    border: 0;
+    }
+
+body {
+    font: 62.5% 'Lucida Grande', Verdana, Arial, Sans-Serif; /* Resets 1em to 10px */
+    color: #444;
+    background: #EDEDED;
+    text-align: center;
+    margin: 0 0 30px;
+    }
+
+#page {
+    background: white;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    position: relative;
+    /* The entire template's width is set in this class. */
+    width: 780px;
+    /*_width: 740px;*/ /* IE hack */
+    border: 1px solid #ddd;
+    border-top: none;
+    }
+
+* html #page { width: 770px } /* IE hack */
+
+
+#headr {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 200px;
+    background: url('http://www.taitischia.com/blog/header.jpg');
+    }
+
+#primary {
+    width: 500px;
+    /*_width: 500px;*/ /* IE Hack */
+    float: left;
+    padding: 20px 0 10px;
+    margin: 0 10px 0 30px;
+    /*_margin: 0 20px 0 15px;*/ /* IE Hack */
+    display: inline;
+    }
+
+.secondary {
+    font: 1em/1.5em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    padding: 10px 0;
+    margin: 0 0 20px 71%;
+    width: 26%;
+    color: #666;
+    position: relative;
+    /* The following are IE Fixes */
+    /*_padding: 30px 0 10px;
+    _margin-left: 0%;
+    _margin-right: -4%;
+    _width: 26.5%;*/ /* IE hack */
+    }
+
+/* For the flexible-width setting. */
+body.flex #primary  { width: 65% } 
+.flex .secondary { width: 25% } 
+
+.comments {
+    text-align: left;
+    padding: 30px 0 0;
+    position: relative;
+    }
+
+/*- Main Menu in Header */
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 90%;
+    }
+
+ul.menu li {
+    display: inline;
+    margin: 0;
+    }
+
+ul.menu,
+ul.menu li a {
+    padding: 5px 15px 6px;
+    }
+
+ul.menu li a {
+    font: 1em Verdana, Helvetica, Arial, Sans-Serif;
+    color: white;
+    margin: 0;
+    }
+
+ul.menu li a:hover {
+    background: #333;
+    color: #eee !important;
+    text-decoration: none;
+    }
+
+ul.menu li.current_page_item a,
+ul.menu li.current_page_item a:hover {
+    color: #333 !important;
+    background: white;
+    text-decoration: none;
+    }
+
+    
+a img,:link img,:visited img { border:none }
+
+
+/*- Headings */
+
+h1, h2, h3, h4 {
+    font-family: 'Trebuchet MS', Verdana, Sans-Serif;
+    }
+
+h1 { /* H1 is used for the title of your blog */
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 75px 0 0 40px;
+    }
+
+h1, h1 a, h1 a:hover, h1 a:visited,
+#headr .description {
+    text-decoration: none;
+    color: white;
+    }
+
+h1:hover {
+    text-decoration: underline;
+    }
+
+#headr .description { /* Blog description, under blog title */
+    font-size: 1em;
+    margin: 0 0 0 40px;
+    display: inline; /* Checking for IE bug. If people start having problems with header width, then this is it */
+    }
+
+.pagetitle { /* Used on static pages and archives */
+    text-align: center;
+    margin: 15px 0 15px;
+    }
+
+.pagetitle h2 { /* H2 is what kind of page you are on. Eg. 'Monthly Archive'. */
+    font-size: 2.4em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: center;
+    display: inline;
+    }
+
+.secondary h2 { /* Secondary H2 is sidebar headlines */
+    font-size: 1.5em;
+    font-weight: normal;
+    padding: 0;
+    display: inline;
+    }
+
+#primary h3, #primary h4, .permalink #primary .aside h3 { /* H3 is entry headlines. H4 is comments and replyform headlines */
+    font-size: 2.2em;
+    font-weight: normal;
+    letter-spacing: -1px;
+    display: inline;
+    }
+
+#primary .aside h3 {
+    font-size: 1.6em;
+    font-weight: normal;
+    }
+
+.itemhead {
+    margin-top: 10px;
+    }
+
+.itemtext h3 { /* For use on Pages */
+    font-size: 1.7em;
+    display: block;
+    padding: 15px 0 0;
+    }
+
+.itemtext h4 { /* For use on Pages */
+    font-size: 1.5em;
+    display: block;
+    padding: 15px 0 0;
+    }
+
+.secondary div {
+    margin: 20px 0 0;
+    padding: 0;
+    }
+
+.secondary div div div {
+    margin: 0;
+    }
+    
+#primary .metalink a, #primary .metalink a:visited, /* The Metalink class takes care of the comments, edit, rss and trackback links next to the titles */
+.secondary .metalink a, .secondary .metalink a:visited,
+.secondary span a, .secondary span a:visited {
+    color: #999;
+    font-weight: normal;
+    }
+
+#primary .item .itemhead .metalink, .comments #primary .metalink {
+    font-size: 1.8em;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+    margin-left: 15px;
+    }
+
+#primary .aside .itemhead .metalink {
+    font-size: 1.4em;
+    }
+
+.permalink #primary .aside .itemtext {
+    font-size: 1.4em;
+    color: #999;
+    }
+
+.comments #primary .metalink {
+    margin: 0 15px 0 0;
+    float: none;
+    }
+
+.feedicon { /* Next to Comment Section Headline */
+    border: 0 !important;
+    padding: 0 !important;
+    }
+
+.feedlink img { /* On the sidebar */
+    height: 16px;
+    width: 16px;
+    border: none;
+    position: absolute;
+    right: 0;
+    }
+
+#primary .aside {
+    padding: 8px;
+    margin: 0 4%;
+    }
+
+.secondary .aside {
+    margin: 0;
+    padding: 0 0 10px;
+    word-spacing: -1px;
+    }
+
+.secondary .aside .metalink {
+    padding-left: 0px;
+    }
+
+.secondary span a {
+    margin-left: 10px;
+    }
+
+h2, h2 a, h2 a:visited,
+h3, h3 a, h3 a:visited,
+h4, h4 a, h4 a:visited {
+    color: #444;
+    }
+
+h2, h2 a, h2 a:hover, h2 a:visited,
+h3, h3 a, h3 a:hover, h3 a:visited,
+h4, h4 a, h4 a:hover, h4 a:visited {
+    text-decoration: none;
+    }
+
+.metadata { /* Time and category for blog entries */
+    font-size: 1em;
+    display: block;
+    margin-top: 2px;
+    color: #bbb;
+    }
+
+.metadata a, .commentmetadata a {
+    color: #777;
+    }
+
+.commentslink {
+    padding: 2px 0 2px 0px;
+    background: url('') left center no-repeat;
+    margin-right: 10px;
+    }
+
+.chronodata {
+    padding: 2px 0 2px 0px ;
+    background: url('') left center no-repeat;
+    }
+
+/*- Primary Contents */
+
+#primary .item {
+    margin: 0;
+    padding: 5px 0 15px;
+    position: relative;
+    }
+
+#primary .item .itemtext {
+    font: 1.1em/1.5em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    text-align: justify;
+    color: #444;
+    }
+
+#primary .item .itemtext p,
+#primary .item .itemtext ul,
+#primary .item .itemtext ol,
+#primary .item .itemtext div,
+#primary .item .itemtext blockquote {
+    margin: 13px 0;
+    }
+
+
+.comments #commentlist {
+    margin: 0;
+    padding: 10px 0 20px;
+    position: relative;
+    }
+
+.comments #commentlist li {
+    margin: 10px 0;
+    padding: 10px 10px 5px;
+    list-style: none;
+    }
+
+.comments #commentlist .commentmetadata {
+    padding: 2px 0 2px 20px;
+    background: url('') left center no-repeat;
+    display: block;
+    }
+
+.comments #commentlist li img {
+    padding: 0;
+    border: none;
+    }
+
+
+.comments #commentlist li .commentauthor {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    }
+
+.comments #commentlist li .counter {
+    display: none;
+    font: normal 1.5em 'Century Gothic', 'Lucida Grande', Arial, Helvetica, Sans-Serif;
+    color: #999;
+    float: left;
+    width: 35px;
+    }
+
+.comments #commentlist li.authorcomment {
+    background: #f6f7f8;
+    }
+
+.comments #commentlist li.authorcomment blockquote {
+    color: #333;
+    background: #f6f7f8 url('http://photos1.blogger.com/blogger/5442/340/1600/quote.png') no-repeat 10px 0;              
+    }
+     
+.comments #pinglist {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 10px 0 10px;
+    background: #f6f7f8;
+    }
+
+.comments #pinglist li {
+    margin-left: 40px;
+    padding: 7px 0;
+    list-style: none;
+    }
+
+.comments #pinglist li .commentauthor {
+    font-weight: bold;
+    display: block;
+    }
+
+.comments #pinglist li small {
+    font: .8em Arial, Sans-Serif;
+    display: block;
+    }
+
+.comments #pinglist li .counter {
+    display: none;
+    }
+
+.comments #pinglist li span.favatar img {
+    margin-left: -25px;
+    border: none;
+    padding: 0;
+    float: left;
+    }
+
+.comments #pinglist li img {
+    padding: 0;
+    border: none;
+    }
+    
+.comments #leavecomment, .comments #loading {
+    text-align: center;
+    margin: 30px 0 20px !important;
+    color: #ddd;
+    font-size: 2em;
+    letter-spacing: -2px;
+    }
+
+.comments #loading {
+    margin-top: 20px !important;
+    }
+
+.comments form {
+    clear: both;
+    padding: 1px 0 10px;
+    margin: 0;
+    }
+
+input[type=text], textarea {
+    font: 1em Verdana, Arial, Helvetica, Sans-Serif;
+    padding: 3px;
+    color: #777;
+    }
+
+input[type=text]:focus, textarea:focus {
+    background: #fff;
+    color: #333;
+    border-color: #666;
+    }
+
+.comments form input[type=text] {
+    width: 45%;
+    margin: 5px 5px 1px 0;
+    }
+
+.comments form textarea {
+    height: 250px;
+    padding: 2px;
+    width: 100%;
+    margin: 10px 0;
+    /*_width: 98.5%;*/ /* IE hack */
+    }
+
+.comments form #submit {
+    margin: 0;
+    float: right;
+    }
+
+#footer {
+    margin-top: 20px;
+    text-align: center;
+    }
+
+#footer a {
+    color: #888;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    }
+
+#footer a:hover {
+    border: none;
+    text-decoration: none;
+    color: black;
+    }
+
+/*- Links */
+
+#primary a:hover, #primary a:visited:hover,
+.secondary a:hover, .secondary a:visited:hover {
+    text-decoration: underline;
+    }
+
+h2 a:hover, h2 span a:hover {
+    color: #CB0044 !important;
+    }
+
+a {
+    color: #CB0044;
+    text-decoration: none;
+    }
+
+.itemtext a:visited {
+    color: #b41;
+    }
+
+/*- Various Tags and Classes */
+
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    }
+
+#primary .itemtext img {
+    margin: 0 5px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    }
+
+.center {
+    text-align: center;
+    }
+
+small {
+    font-size: .9em;
+    line-height: 1.5em;
+    }
+
+small, strike {
+    color: #777;
+    }
+    
+code {
+    font: 1.1em 'Courier New', Courier, Monospace;
+    }
+
+acronym, abbr {
+    font-size: 0.9em;
+    letter-spacing: .07em;
+    border-bottom: 1px dashed #999;
+    cursor: help;
+    }
+
+blockquote {
+    margin: 20px 0;
+    padding: 0 20px 0 50px;
+    color: #333;
+    background: #fff url('http://photos1.blogger.com/blogger/5442/340/1600/quote.png') no-repeat 10px 0;
+    border: none;
+    }
+
+hr {
+    display: none;
+    }
+
+
+/*- Begin Lists */
+.itemtext ol, .itemtext ul {
+    padding: 0 0 0 35px;
+    margin: 0;
+    }
+
+.itemtext ol li, .itemtext ul li {
+    margin: 0 0 3px;
+    padding: 0;
+    }
+
+.secondary div p {
+    margin-top: 0.5em;
+    }
+
+/*.secondary ul, .secondary ol {
+    margin: 5px 0 0;
+    padding-left: 0;
+    }*/
+
+.secondary ul, .secondary ol, .secondary div div {
+    margin: 5px 0 0;
+    padding-left: 0;
+    }
+
+.secondary ul {
+    /*_margin-left: 0px;*/ /* IE Hack */
+    }
+
+.secondary ol {
+    margin-left: 15px;
+    }
+
+.secondary ul li, .secondary ol li {
+    margin: 0;
+    padding: 1px 0;
+    }
+    
+.secondary ul li {
+    list-style-type: none;
+    list-style-image: none;
+    }
+
+ol li {
+    list-style: decimal outside;
+    }
+
+/*- Search Form and Livesearch */
+
+
+input[type=text], textarea {
+    color: #444;
+    padding: 2px 0 2px 2px;
+    margin: 0;
+    }
+    
+</style>
+</head>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5231623-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<body>
+
+<div id="page">
+
+    <div id="headr">
+
+        <h1></h1>
+        <p class="description"></p>
+
+    
+    </div>
+
+        <hr />
+
+<div class="content">
+    
+    <div id="primary">
+
+        
+
+     
+
+    <div id="primarycontent"><div>
+
+            
+        
+            <div id="post-7294056540513821392" class="item entry">
+
+                <div class="itemhead">
+                    <h3><a href="http://www.taitischia.com/blog/2008/06/end-of-beginning.html" rel="bookmark" title='Permanent Link to "The end of the beginning"'>The end of the beginning</a></h3>
+                        
+                
+                                        
+
+                </div>
+    
+                <div class="itemtext">
+                    <p><div style="clear:both;"></div>Hello all. <a href="http://adspace-pioneers.blogspot.com/2008/06/top-50-australian-marketing-pioneer.html">Recent events</a> have shown a renewed interest in The Wayfarer. I haven't updated in over a year, yet the entries posted here seem to have lived on within the 1011's of Google's servers with stoic resilience. With this in mind, I have decided to re-think and re-invigorate The Wayfarer. Stay tuned, possibly subscribe to the feed, and wait to see what The Wayfarer has planned next.<br /><br />To see what I'm up to, go <a href="http://creativeoperations.blogspot.com/2008/07/what-do-you-get-when-you-cross-dirty.html">here</a>.<div style="clear:both; padding-bottom:0.25em"></div></p>    
+                                    </div>
+                    <small class="metadata">
+
+                        <a href="http://www.taitischia.com/blog/2008/06/end-of-beginning.html#comments" class="commentslink" title="Comment on The end of the beginning">5 <span>Comments</span></a> 
+                    </span>
+                    <span class="chronodata">
+
+                    Spoken by Tait Modern Ischia
+                    on Sunday, June 15 at 19:43.    
+                    </span>
+
+                                                                    </small>
+            </div>
+            
+            
+            
+            
+            
+                
+            
+
+            
+    
+    </div>
+
+    </div>
+    
+    </div>
+
+    <hr />
+    
+
+<div class=" secondary">
+    <div class="sb-latest"><h2>Who</h2>
+
+    <ul>
+Tait Ischia.<br>Freelance Writer/Copywriter
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+user = "t";
+site = "taitischia.com";
+
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+// End -->
+    </SCRIPT><br>
+<a href="http://taitischia.com" target="_blank">taitischia.com</a><br><br>
+<a href="http://wayfarer.tumblr.com/" target="_blank">the wayfarer <i>mini</i></a>
+
+<br><br><p><a href="http://feeds.feedburner.com/thewayfarer" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/thewayfarer" rel="alternate" type="application/rss+xml">Subscribe in a reader</a></p>
+
+    </div>
+    <div class="sb-latest"><h2>Search</h2>
+        
+         <form action="http://www.taitischia.com/blog/search" method="get">
+         <input id="search" name="q" size="15" type="text">
+         <input type="submit" value="Go">
+         </form>
+
+    </div>
+    <div class="sb-latest"><h2>Archives</h2>
+
+    <ul>
+
+              
+                <li class="module-list-item"><a href='http://www.taitischia.com/blog/2007_03_01_archive.html'>March 2007</a></li>
+              
+                <li class="module-list-item"><a href='http://www.taitischia.com/blog/2007_04_01_archive.html'>April 2007</a></li>
+              
+                <li class="module-list-item"><a href='http://www.taitischia.com/blog/2007_05_01_archive.html'>May 2007</a></li>
+              
+                <li class="module-list-item"><a href='http://www.taitischia.com/blog/2008_06_01_archive.html'>June 2008</a></li>
+              
+                <li class="module-list-item"><a href='http://www.taitischia.com/blog/2008_07_01_archive.html'>July 2008</a></li>
+              
+        </ul>
+
+    </div>
+    
+        <div class="sb-latest"><h2>Latest</h2>
+
+    <ul>
+         
+         <li><a href="http://www.taitischia.com/blog/2008/07/elaborate-con.html" title="An Elaborate Con">An Elaborate Con</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2008/06/end-of-beginning.html" title="The end of the beginning">The end of the beginning</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/05/science-of-art-tv.html" title="The Science of Art &amp; TV">The Science of Art &amp; TV</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/04/art-of-job-hunting.html" title="The art of job hunting">The art of job hunting</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/04/beyond-page.html" title="Beyond the page">Beyond the page</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/04/youre-useless.html" title="You&#39;re useless">You&#39;re useless</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/04/appropriate-appropriation.html" title="Appropriate appropriation">Appropriate appropriation</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/03/taking-pryd-in-saving-energy.html" title="Taking Pryd in saving energy">Taking Pryd in saving energy</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/03/remix-rmx.html" title="Remix the RMX">Remix the RMX</a></li>
+
+         
+         <li><a href="http://www.taitischia.com/blog/2007/03/jadore-le-magasin.html" title="J&#39;adore le magasin">J&#39;adore le magasin</a></li>
+
+         
+         
+    </ul>
+    </div>
+    
+    
+    <div class="sb-latest"><h2>Blogs</h2>
+
+    <ul>
+
+
+<!--#############################  ADD YOUR LINKS HERE  ####################################-->
+
+   <li class="module-list-item"><a href="http://branddna.blogspot.com" target="_blank">Brand Dna</a></li>
+   <li class="module-list-item"><a href="http://edhowley.blogspot.com" target="_blank">bloggED</a></li>
+   <li class="module-list-item"><a href="http://franderham.blogspot.com/" target="_blank">Frandom</a></li>
+   <li class="module-list-item"><a href="http://russelldavies.typepad.com/" target="_blank">Russell Davies</a></li>
+   <li class="module-list-item"><a href="http://www.cityofsound.com/" target="_blank">City of Sound</a></li>
+
+<!--########################################################################################-->
+
+
+    </ul>
+
+    </div>
+    
+    
+     <div class="sb-latest"><h2>Culture</h2>
+
+    <ul>
+
+
+<!--#############################  ADD YOUR LINKS HERE  ####################################-->
+
+   <li class="module-list-item"><a href="http://www.nownow.com.au/" target="_blank">NowNow</a></li> 
+   <li class="module-list-item"><a href="http://www.threethousand.com.au/home.html" target="_blank">threethousand via melb</a></li>
+<li class="module-list-item"><a href="http://www.twothousand.com.au/home.html" target="_blank">twothousand via syd</a></li>
+<li class="module-list-item"><a href="http://www.coolhunting.com/" target="_blank">Cool Hunting</a></li>
+<li class="module-list-item"><a href="http://boico.net/blog/" target="_blank">Boico</a></li>
+<li class="module-list-item"><a href="http://monocle.com/" target="_blank">Monocle</a></li>
+<li class="module-list-item"><a href="http://www.wooooomag.com/" target="_blank">Wooooo Mag</a></li>
+<li class="module-list-item"><a href="http://forepaw.org/" target="_blank">Forepaw</a></li>
+
+<!--########################################################################################-->
+
+
+    </ul>
+
+    </div>
+    
+    
+        
+    <div class="sb-latest"><h2>Design</h2>
+
+    <ul>
+
+
+<!--#############################  ADD YOUR LINKS HERE  ####################################-->
+
+
+   <li class="module-list-item"><a href="http://www.designiskinky.com" target="_blank">Design is Kinky</a></li>
+   <li class="module-list-item"><a href="http://www.thestylepress.net/" target="_blank">The Style Press</a></li>
+   <li class="module-list-item"><a href="http://www.newstoday.com/" target="_blank">Newstoday</a></li>
+   <li class="module-list-item"><a href="http://www.chaseandgalley.com" target="_blank">Chase & Galley</a></li>
+   <li class="module-list-item"><a href="http://www.theco-op.net.au/" target="_blank">The Co-Op</a></li>
+
+
+<!--########################################################################################-->
+
+
+    </ul>
+
+    </div>
+        <div class="sb-latest"><h2>Advertising</h2>
+
+    <ul>
+
+
+<!--#############################  ADD YOUR LINKS HERE  ####################################-->
+
+
+   <li class="module-list-item"><a href="http://campaignbrief.blogspot.com" target="_blank">Campaign Brief</a></li>
+   <li class="module-list-item"><a href="http://www.motherlondon.com/" target="_blank">Mother London</a></li>
+   <li class="module-list-item"><a href="http://www.thebrooklynbrothers.com/" target="_blank">The Brooklyn Brothers</a></li>
+   <li class="module-list-item"><a href="http://www.anomalynyc.com/" target="_blank">Anomaly</a></li>
+   <li class="module-list-item"><a href="http://www.kesselskramer.com/" target="_blank">Kessels Kramer</a></li>
+   <li class="module-list-item"><a href="http://www.winkreative.com/" target="_blank">Winkreative</a></li>
+
+<!--########################################################################################-->
+
+
+    </ul>
+
+    </div>
+    
+    <br />
+    <br />
+  
+</div>
+<div class="clear"></div>    
+</div>
+
+    <br class="clear" />
+
+</div> <!-- Close Page -->
+
+<hr />
+
+<p id="footer"><small>
+
+<!-- Site Meter XHTML Strict 1.0 -->
+<script type="text/javascript" src="http://s31.sitemeter.com/js/counter.js?site=s31wayfarer">
+</script>
+<!-- Copyright (c)2006 Site Meter -->
+
+ 
+</small></p>
+
+
+</body>
+</html>
